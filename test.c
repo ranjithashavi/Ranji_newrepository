@@ -2,11 +2,12 @@
  
 int main()
 {
-  int n=10;  
-  if (n%2 == 0)
-      printf("Even\n");
-   else
-      printf("Odd\n");
-     
+  for(n=0;n<=10;n++)
+  {
+    if (n%2 == 0)
+        printf("Even\n");
+     else
+        printf("Odd\n");
+  }    
    return 0;
 }
