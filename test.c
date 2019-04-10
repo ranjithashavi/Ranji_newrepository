@@ -2,7 +2,7 @@
  
 int main()
 {
-  int n=9;  
+  int n=10;  
   if (n%2 == 0)
       printf("Even\n");
    else
